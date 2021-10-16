@@ -32,7 +32,7 @@ client.categories = fs.readdirSync("./Commands/");
 client.config = require("./config.json");
 
 
-["Command", "Event"].forEach(handler => {
+["command", "event"].forEach(handler => {
     require(`./Structures/${handler}`)(client);
 });
 
