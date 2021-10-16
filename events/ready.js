@@ -1,7 +1,7 @@
 const client = require('../index.js');
 const activities = [
     {name: "New world", type: 'PLAYING' },
-    {name: "to kappz", type: 'LISTENING' }
+    {name: "kappz", type: 'LISTENING' }
 ];
 
 client.on('ready', () => {
