@@ -1,4 +1,4 @@
-const {MessageEmbed, Collection, Client, Discord, Permissions} = require('discord.js');
+const {Collection, Client, Discord, Permissions} = require('discord.js');
 const db = require('quick.db')
 
 module.exports = {
